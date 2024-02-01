@@ -1,0 +1,94 @@
+:root {
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.laundryImg {
+    height: 100vh;
+    width: 50vw;
+}
+
+h1, 
+p, 
+.loginFormContainer,
+.register,
+.formSection,
+.formContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.formSection {
+    background-color: aliceblue;
+    width: 100%;
+    flex-direction: column;
+}
+
+.formContainer {
+    flex-direction: column;
+}
+
+.loginFormContainer {
+    flex-direction: column;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem 6rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+input {
+    background-color: #FFF;
+    border-radius: 5px;
+    border-color: transparent;
+    height: 1.75rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.forgotPasswordBtn {
+    width: max-content;
+    background-color: transparent;
+    position: relative;
+    left: 80%;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.loginBtn {
+    background-color: #5cafd9;
+    height: 4rem;
+    color: #FFF;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.register {
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
