@@ -65,11 +65,14 @@ input {
     padding: 0.5rem;
     font-size: 1rem;
     margin: 1rem 0;
+    border: 1px solid;
 }
 
 .forgotPasswordBtn {
     width: max-content;
     background-color: transparent;
+    color: #000;
+    text-decoration: none;
     position: relative;
     left: 80%;
     border: none;
