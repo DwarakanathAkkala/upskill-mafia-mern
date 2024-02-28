@@ -1,0 +1,78 @@
+/* Reset Browser Default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: coral;
+}
+
+main {
+    display: grid;
+    row-gap: 2rem;
+    padding: 0.5rem;
+}
+
+.head {
+    color: darkblue;
+}
+
+#bglime {
+    background-color: lime;
+}
+
+span {
+    color: red;
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+}
+
+#para {
+    color: green;
+    font-size: 1rem;
+}
+
+p > span {
+    color: black;
+    font-size: 3rem;
+}
+
+section p {
+    color: black;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+ul, ol {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+li {
+    color: white;
+}
+
+li a {
+    background-color: yellow;
+}
+
+li:nth-last-child(1) a {
+    background-color: blue;
+}
+
+ol li {
+    color: black;
+}
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+ol li:nth-child(3) {
+    color: red;
+}
