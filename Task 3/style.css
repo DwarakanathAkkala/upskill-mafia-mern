@@ -20,7 +20,15 @@ img {
 
 button {
     width: 100%;
-    padding: 1rem;
+   zoom:unset;
+   -ms-zoom: unset;
+    
+   
+   /* position: relative;
+   height: 2vh; */
+   /* top: 10vh;
+   left: 10vw; */
+    /* padding: 1em; */
     background-color: blueviolet;
     color: #FFF;
     border: none;
@@ -30,6 +38,10 @@ button {
     background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
     background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
 }
+
+/* .container {
+    padding: 1rem;
+} */
 
 /* Accessibility Browser Support */
 [aria-hidden="true"] { visibility: hidden; }
